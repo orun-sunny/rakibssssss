@@ -1,0 +1,33 @@
+.languageCentre-submenu{
+    width: 10rem;
+    position: absolute;
+    top: 55px;
+    list-style: none;
+    text-align: start;
+    background: white;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.languageCentre-submenu li{
+    background: rgb(253, 255, 255);
+    cursor: pointer;
+}
+
+.languageCentre-submenu.clicked {
+    display: block;
+}
+
+.l-multi-submenu-item{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: rgb(253, 255, 255);
+    padding: 16px;
+}
+
+.l-multi-submenu-item:hover{
+  background: rgb(31, 191, 227);
+}
+
+
